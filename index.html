@@ -18,7 +18,12 @@
 
         body {
             font-family: 'Gill Sans MT', sans-serif;
-            background: #fec63b;
+            /* The image is now linked as an offline file */
+            background-image: url('named.png');
+            /* 'cover' ensures the image fills the entire screen, even if it means some parts are cropped */
+            background-size: cover; 
+            background-position: center;
+            background-repeat: no-repeat;
             min-height: 100vh;
             display: flex;
             flex-direction: column;
